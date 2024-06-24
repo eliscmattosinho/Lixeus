@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Telegraf;
+    src: local(Telegraf), url(fonts/PPTelegraf-Regular.otf);
+}
+
+body {
+    background-color: #000;
+    font-family: Telegraf, Arial, Helvetica, sans-serif !important;
+    font-size: 16px;
+    color: #fff;
+}
+
+.botao {
+    text-align: center;
+    width: 10em;
+    border-radius: 5em;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+
+.btnBlack {
+    color: #fff;
+    background: #000;
+}
+
+.btnBlack:hover {
+    color: #fff;
+    background: linear-gradient(to right, #011632, #560743);
+}

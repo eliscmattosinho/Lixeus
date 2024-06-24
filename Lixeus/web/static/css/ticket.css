@@ -1,0 +1,62 @@
+body {
+    margin: 40px;
+}
+
+#ticketsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.ticketModel {
+    background: linear-gradient(to bottom, #011632, #560743);
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 250px;
+    max-height: 500px;
+    position: relative;
+}
+
+.ticketInfos, .codeBlock {
+    margin-top: 30px;
+}
+
+.ticketTitle,
+.ticketDate,
+.ticketHour,
+.ticketaccessCode  {
+    color: white;
+    font-size: 14px;
+}
+
+.ticketaccessCode  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btnTicketPrint {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    margin: 40px;
+    padding: 20px 25px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #5B0041;
+}
+
+#btnTicketPrint:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}

@@ -1,0 +1,23 @@
+.blockD {
+    margin: 30px;
+}
+
+table {
+    margin: 20px 0;
+}
+
+table,
+th,
+td {
+    vertical-align: middle;
+}
+
+th,
+td {
+    padding: 12px;
+}
+
+td a {
+    color: red;
+    font-size: 15px;
+}

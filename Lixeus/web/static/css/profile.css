@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+
+#profileBlock {
+    margin: 30px;
+}
+
+.profileElement {
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+h2 {
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    color: white;
+    padding: 5px 10px;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+.fa {
+    margin-left: -30px;
+    color: white;
+}
+
+.fa:hover {
+    cursor: pointer;
+}
+
+#updateForm {
+    margin: 20px 40px;
+}
+
+.btnUpdate {
+    background-color: green;
+}
+
+.btnDelete,
+.btnLogout,
+.btnUpdate {
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.btnDelete button {
+    background-color: red;
+}
+
+.btnLogout button {
+    background-color: rgb(137, 137, 137);
+}
+
+button[type="submit"] {
+    padding: 5px 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+button[type="submit"]:hover {
+    box-shadow: 0 5px 10px rgba(61, 67, 255, 0.2);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.btnReturn {
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.btnReturn button {
+    background-color: #5B0041;
+}
