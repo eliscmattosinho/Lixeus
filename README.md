@@ -2,7 +2,7 @@
 Projeto do Planetário Lixeus para a matéria de Programação WEB com Java.
 
 ## Landing Page by Elis Mattosinho
-[Lixeus Canva]([https://github.com/eliscmatt/Lixeus.git](https://www.behance.net/gallery/203052553/Lixeus-Landing-Page))
+[Lixeus Canva](https://www.behance.net/gallery/203052553/Lixeus-Landing-Page)
 
 ### Utilizados neste projeto:
 #### Ferramentas:
